@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  line-height: 20px;
+  padding: 0 5%;
+
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5c54641a11f7846091b63ab7/1550011098565-P8FMMBGY4CJQE6RE2CTK/tyler-lastovich-437699-unsplash.jpg?format=1500w");
+  background-attachment: fixed;
+}
+
+.tac {
+  text-align: center;
+}
+
+/* header style Start */
+
+.logo {
+  text-align: center;
+  padding: 15px 0;
+  color: rgb(32, 32, 32);
+}
+
+nav ul {
+  width: 320px;
+  margin: 10px auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item {
+  
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(199, 7, 0);
+}
+
+.active {
+  color: rgb(60, 6, 113);
+  font-weight: 600;
+  border-bottom: 2px solid rgb(60, 6, 113);
+}
+/* header style End */
+
+/* main style start */
+
+.title {
+  text-align: center;
+  color: rgb(32, 32, 32);
+  font-size: 1.2em;
+  margin: 20px;
+}
+
+.orange-title {
+  text-align: center;
+  margin: 15px auto;
+  color: #e79600;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.orange-info {
+  margin: 15px auto;
+  color: #e79600;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.product-list {
+  width: 60px;
+  margin: 0 auto;
+}
+/* main style End */
+
+/* product.html style start */
+
+.products {
+  width: 420px;
+  margin: 0 auto;
+}
+
+.products img {
+  width: 250px;
+}
+
+.products li {
+  text-align: center;
+  margin: 75px auto;
+}
+
+.product {
+  padding-top: 11px;
+}
+/* product.html style End */
+
+/* about-us.html style start */
+
+article{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 7px;
+    padding: 15px;
+    margin: 10px auto;
+}
+/* about-us.html style End */
+
+.info {
+  text-align: center;
+}
+
+
+/* İletişim Form Başlangıç */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #e79600;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #e79600;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/* İletişim Form Sonu*/
